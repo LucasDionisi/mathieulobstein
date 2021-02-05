@@ -1,0 +1,298 @@
+// Dark theme
+$accent-2: #FF7164;
+$body-2: #16171B;
+$bg_block-2: #242529;
+
+// Main elelemnts
+.scheme_1 {
+  .accent,
+  .circle--slider .circle--rotate > li .icon:after,
+  .portfolio .filter_btn:after,
+  .reviews .left span,
+  .reviews .right span,
+  .news-post,
+  .portfolio_page .block_link:after,
+  .search-form .search-submit {
+    background: $accent-2;
+  }
+
+  a,
+  .accent_text,
+  .title,
+  .portfolio .filter_btn.active,
+  .portfolio_page .block_title {
+    color: $accent-2;
+  }
+
+  .price_block,
+  .partners .owl-dot span {
+    border-color: $accent-2;
+  }
+
+  .pace-activity::before {
+    border-right-color: $accent-2;
+    border-left-color: $accent-2;
+  }
+
+  .pace-activity::after {
+    border-top-color: $accent-2;
+    border-bottom-color: $accent-2;
+  }
+
+  .blog input[type="submit"],
+  .single input[type="submit"],
+  .page input[type="submit"],
+  #sidebar .search-submit {
+    background: $accent-2;
+  }
+
+  .portfolio_2_columns .filter_btn.active {
+    color: $accent-2;
+  }
+  .portfolio_2_columns .filter_btn.active:after {
+    background: $accent-2;
+  }
+  .portfolio_3_columns .filter_btn.active {
+    color: $accent-2;
+  }
+  .portfolio_3_columns .filter_btn.active:after {
+    background: $accent-2;
+  }
+  .portfolio_4_columns .filter_btn.active {
+    color: $accent-2;
+  }
+  .portfolio_4_columns .filter_btn.active:after {
+    background: $accent-2;
+  }
+}
+
+.dark_theme {
+  .accent,
+  .circle--slider .circle--rotate > li .icon:after,
+  .portfolio .filter_btn:after,
+  .reviews .left span,
+  .reviews .right span,
+  .news-post,
+  .portfolio_page .block_link:after,
+  .search-form .search-submit {
+    background: $accent-2;
+  }
+
+  a,
+  .accent_text,
+  .title,
+  .portfolio .filter_btn.active,
+  .portfolio_page .block_title {
+    color: $accent-2;
+  }
+
+  .price_block,
+  .partners .owl-dot span {
+    border-color: $accent-2;
+  }
+
+  &.body {
+    background: $body-2;
+    color: $header_text_color;
+  }
+
+  .about_left.accent {
+    background: $bg_block-2;
+  }
+
+  .video-right.accent {
+    background: $bg_block-2;
+  }
+
+  .block_right.accent {
+    background: $body-2;
+
+  }
+
+  .price_block .price_block_cost span {
+    color: $white;
+  }
+
+  .bg_light {
+    background: $bg_block-2;
+  }
+
+  .news-post {
+    background: $bg_block-2;
+  }
+
+  .contact_form_dark form {
+    color: $white;
+  }
+
+  .contact_form_dark input[type=text],
+  .contact_form_dark input[type=email],
+  .contact_form_dark input[type=phone],
+  .contact_form_dark input[type=name] {
+    border-bottom: 1px $white solid !important;
+    color: $white !important;
+    &::-webkit-input-placeholder {
+      color: $white !important;
+      opacity: 1;
+    }
+
+    &:-moz-placeholder {
+      color: $white !important;
+      opacity: 1;
+    }
+
+    &::-moz-placeholder {
+      color: $white !important;
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+      color: $white !important;
+      opacity: 1;
+    }
+  }
+
+  .contact_form_dark input[type=submit] {
+    border-color: $white;
+    color: $white;
+  }
+
+  .block_right.accent {
+    background: $bg_block-2;
+
+  }
+
+  #sidebar .al-widget {
+    border-color: $accent-2;
+  }
+
+  #sidebar .al-widget h4 {
+    background: $body-2;
+
+  }
+
+  .al-comment-content {
+    background: $bg_block-2;
+  }
+
+  .al-comment-content:before {
+    border-right: 10px solid $bg_block-2;
+  }
+
+  .search-form .search-field {
+    background: $bg_block-2;
+    border: none;
+  }
+
+  .al-comment-form input[type='text'],
+  .al-comment-form textarea,
+  .comment-respond textarea {
+    background: $bg_block-2;
+  }
+
+  .page-numbers {
+    border-color: rgba(255, 255, 255, .2);
+  }
+  .price_block .btn {
+    color: $white;
+  }
+  .team_socials a {
+    color: $white;
+  }
+  .partners_link {
+    color: $white;
+  }
+  .partners .owl-dot.active span {
+    background: $white;
+  }
+  .partners .owl-dot span {
+    border-color: $white;
+  }
+  .transition-loader-inner {
+    color: $accent-2;
+  }
+  .preloader {
+    background: #000;
+  }
+  .error_content .btn {
+    color: $white;
+  }
+  #sidebar .search-form {
+    border-color: $accent-2;
+  }
+  #sidebar .search-field {
+    color: $white;
+  }
+  #sidebar .search-form:before {
+    color: $accent-2;
+  }
+  &.blog input[type="submit"],
+  &.single input[type="submit"],
+  &.page input[type="submit"] {
+    background: $accent-2;
+  }
+
+  #sidebar .search-field {
+    &::-webkit-input-placeholder {
+      color: $accent-2;
+      opacity: 1;
+    }
+
+    &:-moz-placeholder {
+      color: $accent-2;
+      opacity: 1;
+    }
+
+    &::-moz-placeholder {
+      color: $accent-2;
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+      color: $accent-2;
+      opacity: 1;
+    }
+  }
+
+  .blog_block_content .btn {
+    color: $white;
+  }
+
+  .pagination .prev:after,
+  .pagination .next:after,
+  .pagination .current {
+    color: $white;
+  }
+  .pagination a:hover {
+    color: $accent-2;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .btn, input[type="submit"] {
+    color: $white;
+  }
+
+  .portfolio_2_columns .filter_btn.active {
+    color: $accent-2;
+  }
+  .portfolio_2_columns .filter_btn.active:after {
+    background: $accent-2;
+  }
+  .portfolio_3_columns .filter_btn.active {
+    color: $accent-2;
+  }
+  .portfolio_3_columns .filter_btn.active:after {
+    background: $accent-2;
+  }
+  .portfolio_4_columns .filter_btn.active {
+    color: $accent-2;
+  }
+  .portfolio_4_columns .filter_btn.active:after {
+    background: $accent-2;
+  }
+
+  .circle--slider i.left span,
+  .circle--slider i.right span {
+    background: $accent-2;
+  }
+
+}

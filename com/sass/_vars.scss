@@ -1,0 +1,49 @@
+$default-font: "Roboto", sans-serif;
+$accent-font: "BebasNeue";
+
+$mainFontSize: 18px;
+$white: #fff;
+$bg_comment: #f8f8f8;
+
+// Colors Main
+//$title_bg_color : rgba(0,0,0,.05);
+//$accent : #00a2ad;
+//$bg_block : #f3f3f3;
+//$header_text_color : #fff;
+//$dark_color : #09003A;
+
+// Colors 2
+//$title_bg_color : rgba(0,0,0,.05);
+//$accent : #00a2ad;
+//$bg_block : #f6f6ff;
+//$header_text_color : #fff;
+//$dark_color : #090037;
+
+// Colors 3
+//$title_bg_color : rgba(0,0,0,.05);
+//$accent : #998675;
+//$bg_block : #F7F7F7;
+//$header_text_color : #fff;
+//$dark_color : #333;
+
+// Colors 4
+$body: #fff;
+
+$accent : #998675;
+$bg_block : #e7efef;
+$header_text_color : #fff;
+$dark_color : #333;
+$bg_element : #000;
+.test{
+  $accent : red;
+}
+
+
+
+$mediaExtraSmall: (max-width: 575px);
+$mediaSmall: (min-width: 576px) and (max-width: 768px);
+$mediaMedium: (min-width: 769px) and (max-width: 992px);
+$mediaLarge: (min-width: 993px) and (max-width: 1200px);
+$mediaExtraLarge: (min-width: 1201px);
+$media_1500: (max-width: 1500px);
+

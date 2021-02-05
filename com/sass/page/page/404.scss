@@ -1,0 +1,64 @@
+// Styles Page 404
+@import "../../../sass/vars";
+
+
+.error404 {
+  .header {
+    margin-bottom: 0;
+  }
+}
+
+.error_content {
+  background: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .7;
+  }
+  h2 {
+    z-index: 5;
+    color: #fff;
+    font-size: 100px;
+    font-family: $accent-font;
+    text-transform: uppercase;
+    text-align: center;
+    @media #{$mediaSmall}{
+      font-size: 60px;
+    }
+    @media #{$mediaExtraSmall}{
+      font-size: 40px;
+    }
+  }
+  p {
+    font-size: 26px;
+    color: #fff;
+    z-index: 5;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 40px;
+    @media #{$mediaSmall}{
+      font-size: 20px;
+    }
+    @media #{$mediaExtraSmall}{
+      font-size: 16px;
+    }
+  }
+  .btn {
+    z-index: 5;
+    min-width: 120px;
+  }
+}

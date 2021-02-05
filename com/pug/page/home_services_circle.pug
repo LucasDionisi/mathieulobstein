@@ -1,0 +1,40 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title Creative Minimalistic HTML5 Template
+        meta(name='”description”', content='””')
+        meta(name='”keywords”', content='””')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        meta(name='format-detection', content='telephone=no')
+        link(rel='shortcut icon' href='img/contest/favicon/favicon.ico' type='image/x-icon')
+        link(rel='stylesheet', href='css/main.min.css')
+
+    body.body.page-template-landing-page
+        include ../components/preloaders/index
+        include ../layouts/header/index
+
+        #primary.content-area(data-animate='on')
+            section
+                include ../components/slider/index
+            section
+                include ../components/about/index
+            section
+                include ../components/services_circle/index
+            section
+                include ../components/video_block/index
+            section
+                include ../components/portfolio_filter_mix/index
+            section
+                include ../components/discuss_project/index
+            section
+                include ../components/price/index
+            section
+                include ../components/team/index
+            section
+                include ../components/testimonials/index
+            section
+                include ../components/partners/index
+        include ../layouts/footer/index
+        script(src='js/scripts.min.js')

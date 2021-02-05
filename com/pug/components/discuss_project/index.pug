@@ -1,0 +1,18 @@
+<!-- Start Discuss-->
+
+.discuss
+    .container
+        .title.wow.fadeInUp(data-wow-delay='.2s') Discuss the project
+        .subtitle.wow.fadeInUp(data-wow-delay='.2s') Just fill in the contact form below. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        .block
+            .block_left.wow.fadeInLeft(data-wow-delay='.2s' data-image='img/contest/discuss_bg.jpg' )
+            .block_right.accent.wow.fadeInRight(data-wow-delay='.2s')
+                form.discuss_form#contact-form
+                    input(type='text', required, placeholder='First name...', name='first_name')
+                    input(type='text', required, placeholder='Last name...', name='last_name')
+                    input(type='email', required, placeholder='Your email...', name='email')
+                    textarea(required, placeholder='Your message...', id='textarea', cols='30', rows='6', name='message')
+                    input.btn.discuss_btn(type='submit', value='sent message')
+                    .form_result#success Your message has been send
+                    .form_result#error Error sending message
+<!-- End Discuss-->

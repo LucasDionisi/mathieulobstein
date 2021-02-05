@@ -1,0 +1,238 @@
+/* Section Reviews */
+@import "../../../sass/vars";
+
+.reviews {
+  background-size: cover;
+  padding: 110px 0;
+
+  @media #{$mediaMedium}{
+    padding: 60px 0;
+  }
+
+  &_in {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .title {
+    padding: 0px 0 0;
+    text-align: center;
+    @media #{$mediaMedium} {
+      padding-top: 0;
+      margin-bottom: 40px;
+    }
+  }
+
+  #slider-reviews {
+    margin: 45px 0 0;
+    padding: 0 80px 0;
+    @media #{$mediaMedium}{
+      padding: 0 20px;
+
+      //padding: 0 0 0px;
+      //margin: 0 0 40px;
+    }
+    @media #{$mediaExtraSmall}{
+      //padding: 0 0 10px;
+    }
+  }
+
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-comment {
+    padding: 40px 40px 0;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.8;
+    font-weight: 300;
+    pointer-events: none;
+    @media #{$mediaSmall}{
+      font-size: 18px;
+      padding: 0;
+      max-width: 100%;
+    }
+    @media #{$mediaExtraSmall}{
+      padding: 0;
+    }
+  }
+
+  &_name {
+    line-height: 1;
+    text-align: center;
+    display: block;
+    margin: 60px auto 0;
+    font-weight: 300;
+    font-size: 16px;
+    pointer-events: none;
+  }
+  // Buttons
+  .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    right: 95%;
+    margin: auto;
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+      width: 40px;
+    }
+    &:focus {
+      outline: none;
+    }
+    @media #{$mediaMedium}{
+      right: 90%;
+    }
+  }
+  .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 95%;
+    margin: auto;
+    display: block;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+      width: 40px;
+    }
+    &:focus {
+      outline: none;
+    }
+    @media #{$mediaMedium}{
+      left: 90%;
+    }
+  }
+
+  .left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+    & span {
+      position: absolute;
+      top: 35px;
+      transform: translateY(-50%);
+      width: 100%;
+      border-radius: 3px;
+      height: 2px;
+      transition: all .3s ease;
+      background: $accent;
+    }
+    & span:before {
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: -1px;
+      width: 12px;
+      border-radius: 3px;
+      height: 2px;
+      transform: rotate(45deg);
+      transition: all .3s ease;
+      background: inherit;
+    }
+    & span:after {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: -1px;
+      width: 12px;
+      border-radius: 3px;
+      height: 2px;
+      transform: rotate(-45deg);
+      transition: all .3s ease;
+      background: inherit;
+    }
+    @media #{$mediaSmall} {
+      display: none;
+    }
+  }
+
+  .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+    & span {
+      position: absolute;
+      top: 35px;
+      transform: translateY(-50%);
+      width: 100%;
+      border-radius: 3px;
+      height: 2px;
+      transition: all .3s ease;
+      background: $accent;
+    }
+    & span:before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      right: -1px;
+      width: 12px;
+      border-radius: 3px;
+      height: 2px;
+      transform: rotate(45deg);
+      transition: all .3s ease;
+      background: inherit;
+    }
+    & span:after {
+      content: "";
+      position: absolute;
+      top: 4px;
+      right: -1px;
+      width: 12px;
+      border-radius: 3px;
+      height: 2px;
+      transform: rotate(-45deg);
+      transition: all .3s ease;
+      background: inherit;
+    }
+    @media #{$mediaSmall} {
+      display: none;
+    }
+  }
+
+  .owl-dots {
+    display: none;
+  }
+
+
+
+  #pagination {
+    text-align: center;
+    margin-top: 50px;
+    @media #{$mediaMedium} {
+      margin-top: 30px;
+    }
+    @media #{$mediaSmall} {
+      //margin-top: 0;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,61 @@
+/*----------------------------------------------------------------------
+@Author: Oleko
+@URL: http://Millennium.oleko-themes.com/
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+[Table of contents]
+
+1) Fonts
+2) Global CSS
+3) Headers
+4) Footer
+5) Buttons Css
+6) Blog
+-----------------------------------------------------------------------*/
+@import "mixins";
+@import "fonts";
+@import "libs";
+@import "vars";
+
+@import "layouts/header/index";
+//@import "top/index";
+
+@import "../pug/components/slide_video/index";
+@import "../pug/components/slider/index";
+@import "../pug/components/about/index";
+@import "../pug/components/services/index";
+@import "../pug/components/services_circle/index";
+@import "../pug/components/portfolio_filter_mix/index";
+@import "../pug/components/preview/index";
+@import "../pug/components/portfolio_filter_2_columns/index";
+@import "../pug/components/portfolio_filter_3_columns/index";
+@import "../pug/components/portfolio_filter_4_columns/index";
+@import "../pug/components/porfolio/index";
+@import "../pug/components/discuss_project/index";
+@import "../pug/components/video_block/index";
+@import "../pug/components/price/index";
+@import "../pug/components/team/index";
+@import "../pug/components/testimonials/index";
+@import "../pug/components/news_posts/index";
+@import "../pug/components/partners/index";
+@import "../pug/components/contact_form/index";
+@import "../pug/components/contact_block/index";
+@import "../pug/components/preloaders/index";
+@import "../pug/components/preview/index";
+
+@import "layouts/sidebar/index";
+@import "layouts/footer/index";
+@import "core/buttons/index";
+
+@import "page/blog/blog";
+@import "page/page/page";
+@import "page/page/404";
+@import "page/index/index";
+
+@import "colors_scheme";
+
+
+

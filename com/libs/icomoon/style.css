@@ -1,0 +1,33 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo_6:before {
+  content: "\e900";
+}
+.icon-logo_5:before {
+  content: "\e901";
+}
+.icon-logo_4:before {
+  content: "\e902";
+}
+.icon-logo_3:before {
+  content: "\e903";
+}
+.icon-logo_2:before {
+  content: "\e904";
+}
+.icon-logo_1:before {
+  content: "\e905";
+}

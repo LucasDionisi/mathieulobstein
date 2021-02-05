@@ -1,0 +1,142 @@
+/* Slider Video */
+@import "../../../sass/vars";
+@import "../../../sass/mixins";
+
+.slider_video {
+  position: relative;
+  overflow: hidden;
+  cursor: move;
+  background: $white;
+  .slider_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_in {
+      position: relative;
+      z-index: 5;
+      opacity: 0;
+      transition: 2s;
+      transform: scale(.95);
+      width: 90%;
+    }
+    &_content {
+      width: 60%;
+      max-width: 1500px;
+      text-align: center;
+      margin: 40px auto 50px;
+      color: $white;
+      font-weight: 300;
+      font-family: $default-font;
+      line-height: 1.6;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      letter-spacing: .8px;
+      font-size: 20px;
+      overflow: hidden;
+
+      @media #{$mediaSmall} {
+        width: 80%;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .slider_title {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $accent-font;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 130px;
+    color: $white;
+    line-height: 1.2;
+    @media #{$mediaLarge}{
+      font-size: 80px;
+    }
+    @media #{$mediaMedium}{
+      font-size: 60px;
+    }
+    @media #{$mediaExtraSmall}{
+      margin: 20px auto 40px;
+      font-size: 40px;
+    }
+  }
+
+  .btn {
+    background: transparent;
+    border: 1px solid $white;
+    margin: 0 auto;
+  }
+
+  .slider_mouse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 19px;
+    margin: 0 auto !important;
+    height: 32px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    z-index: 1;
+    &:hover {
+      bottom: 15px;
+    }
+  }
+
+  .slider_slide {
+    display: block;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 700px;
+    background: #000;
+  }
+
+  .dark_bg {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .pattern_bg {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: url(../img/contest/bg_pattern.png) repeat;
+    }
+  }
+
+  #video-slider {
+    .slider_info_in {
+      opacity: 1;
+    }
+  }
+
+  .video_slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+

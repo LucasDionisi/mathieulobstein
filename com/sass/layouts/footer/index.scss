@@ -1,0 +1,127 @@
+/* Styles Footer */
+@import "../../../sass/vars";
+@import "../../../sass/mixins";
+/* Footer */
+
+footer {
+  background-color: $bg_element;
+  overflow: hidden;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 70px 10%;
+
+  .footer_content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer_block {
+    max-width: 195px;
+    margin-bottom: 40px;
+    @media #{$mediaMedium} {
+    min-width: 25%;
+    }
+    @media #{$mediaSmall} {
+    min-width: 40%;
+    }
+      .logo a {
+      font-family: "BigJohn";
+      font-size: 25px;
+      color: #ffffff;
+      transition: color 500ms ease;
+    }
+    .footer_block_text {
+      padding-top: 15px;
+      line-height: 32px;
+      font-size: 16px;
+    }
+
+    .footer_block_menu li a:hover {
+      text-decoration: underline;
+    }
+
+    h4 {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    li {
+      display: block;
+      line-height: 32px;
+    }
+
+    li:first-child {
+      padding: 20px 0 0;
+    }
+
+    li a {
+      list-style: none;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .footer_block_social ul {
+    padding: 20px 0 0;
+  }
+
+  .footer_block_social ul li {
+    float: left;
+    margin: -3px 0 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 500ms ease;
+    display: table;
+  }
+
+  .footer_block_social ul li a {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .footer_block_social ul li:first-child {
+    padding: 0;
+    margin-left: -12px;
+  }
+
+  .footer_block_social ul li:hover {
+    background-color: $accent;
+  }
+
+  .footer_bottom {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 30px;
+
+    .footer_bottom_in {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .footer_bottom_in a {
+      text-decoration: underline;
+      list-style: none;
+      color: inherit;
+      line-height: 16px;
+    }
+
+    .footer_bottom_in a:hover {
+      color: $accent;
+    }
+  }
+
+}
