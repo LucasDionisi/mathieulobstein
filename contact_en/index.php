@@ -45,27 +45,27 @@
           <li class="menu-item-wrap">
             <ul class="menu-item-ul">
               <li class="">
-                <a class="header_menu_link" href="../"> Accueil</a>
+                <a class="header_menu_link" href="../index_en.html"> Home</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../realisation/"> Réalisations</a>
+                <a class="header_menu_link" href="../realisation_en/"> Realization</a>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../services/"> Services</a>
+                <a class="header_menu_link" href="../services_en/"> Services</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../a_propos/"> A propos</a>
+                <a class="header_menu_link" href="../a_propos_en/"> About</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../contact/"> Contacts</a>
+                <a class="header_menu_link" href="../contact_en/"> Contacts</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="#"> FR/EN</a>
+                <a class="header_menu_link" href="../contact/"> EN/FR</a>
               </li>
             </ul>
           </li>
           <li style="margin-bottom:130px;">
             <ul class="menu_social">
-              <li><a id="follow-click1" class="socials_link" href="https://many.link/mathieu.lobstein">Me suivre <i class="fa fa-link"></i></a></li>
+              <li><a id="follow-click1" class="socials_link" href="https://many.link/mathieu.lobstein">Follow me <i class="fa fa-link"></i></a></li>
             </ul>
           </li>
         </ul>
@@ -81,26 +81,26 @@
         <!-- Start Portfolio-->
         <div class="contact_form">
           <div class="container">
-            <div class="title wow fadeInUp" data-wow-delay=".2s">Me Contacter</div>
-            <div class="subtitle">Faisons quelque chose de grand ensemble.</div>
+            <div class="title wow fadeInUp" data-wow-delay=".2s">Contact me</div>
+            <div class="subtitle">Let's do something big together.</div>
             <div class="PNb">4<span class="invisible">9</span>0<span class="invisible">1</span>1 <span class="invisible">6</span>4<span class="invisible">00</span>4<span class="invisible">2</span>2 2<span class="invisible">4</span>8<span class="invisible">7</span>6 (33+)</div>
             <div class="AdrM">moc<span class="invisible">hey</span>.kool<span class="invisible">.goir</span>tuo<span class="invisible">gh</span>@<span class="invisible">yay</span>niet<span class="invisible">4Po</span>sbol_<span class="invisible">9uhg</span>ueih<span class="invisible">$2eD</span>tam                          
             </div>
             <div class="form_wrapp wow fadeInUp" data-wow-delay=".2s">
               <form action="" method="post" id="contact-form">
                 <p>
-                  <span><b>Votre nom : </b></span><input id="name" type="text" required name="name" placeholder="* prenom nom"><br>
-                  <span><b>Entreprise :</b></span><input id="work" type="text" name="work" placeholder="* nom de l'entreprise"><br>
-                  <span><b>Votre numéro de téléphone :</b></span><input id="phone" type="text" name="phone" placeholder="* xx xx xx xx xx"><br>
-                  <span><b>Votre email :</b></span><input id="email" type="email" required name="email" placeholder="* votre@email.com"><br>
-                  <span><b>Ce que vous faites :</b></span><input id="business" type="text" name="business" placeholder=""><br>
-                  <span><b>Par quoi êtes vous intéressé :</b></span><input id="message" type="text" name="message" placeholder=""><br>
+                  <span><b>Your name: </b></span><input id="name" type="text" required name="name" placeholder="* name surname"><br>
+                  <span><b>Company:</b></span><input id="work" type="text" name="work" placeholder="* Company Name"><br>
+                  <span><b>Number:</b></span><input id="phone" type="text" name="phone" placeholder="* +xx xxx xxx xxx"><br>
+                  <span><b>Email:</b></span><input id="email" type="email" required name="email" placeholder="* your@email.com"><br>
+                  <span><b>What you're doing:</b></span><input id="business" type="text" name="business" placeholder=""><br>
+                  <span><b>What are you interested in:</b></span><input id="message" type="text" name="message" placeholder=""><br>
                 </p>
                 <div class="form_btn">
                   <input class="btn accen" name="sumbitBtn" type="submit" value="Envoyer">
                 </div>
-                <div class="form_result" id="success">Votre méssage a été envoyé</div>
-                <div class="form_result" id="error">Impossible d'envoyer votre méssage</div>
+                <div class="form_result" id="success">mail sent.</div>
+                <div class="form_result" id="error">Error</div>
               </form>
             </div>
           </div>
