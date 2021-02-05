@@ -14,10 +14,13 @@
   <link rel="stylesheet" href="../com/css/main.min.css">
   <link rel="stylesheet" href="../com/libs/owl_carousel_2/assets/owl.carousel.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&amp;display=swap" rel="stylesheet">
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="../com/css/styleRealisation.css">
+  <link rel="stylesheet" href="../com/css/magnificPopup/magnific-popup.css">
 
 </head>
 
-<body class="body page-template-landing-page dark_theme" style="background-color:#090909;" >
+<body class="body page-template-landing-page dark_theme">
   <div class="preloader">
     <div class="transition-loader">
       <div class="transition-loader-inner">
@@ -34,7 +37,7 @@
     <div class="header_in">
       <div class="header_logo">
         <div class="header_logo_link">
-          <a class="custom-logo-link" href="../">
+          <a class="custom-logo-link" href="../index.html">
 
             <div class="custom-logo" style="margin-top: 15px;"><img src="../com/img/contest/logo.png" width="50"
                 height="36">
@@ -50,18 +53,18 @@
                 <a class="header_menu_link" href="../"> Accueil</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../realisation"> Réalisations</a>
+                <a class="header_menu_link" href="#"> Réalisations</a>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../services"> Services</a>
+                <a class="header_menu_link" href="../services/"> Services</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="#"> A propos</a>
+                <a class="header_menu_link" href="../a_propos/"> A propos</a>
               </li>
               <li class="menu-item menu-item-has-children">
                 <a class="header_menu_link" href="../contact/"> Contacts</a>
               </li>
               <li class="menu-item menu-item-has-children">
-                <a class="header_menu_link" href="../a_propos_en/"> FR/EN</a>
+                <a class="header_menu_link" href="#"> FR/EN</a>
               </li>
             </ul>
           </li>
@@ -77,52 +80,37 @@
       </div>
     </div>
   </header><!-- End Header-->
-
   <div class="content-area" id="primary" data-animate="on">
-    <br><br>
-    <div class="about">
-      <div class="container">
-        <div class="about_in">
-          <div class="about_left accent wow fadeInLeft" data-wow-delay=".2s">
-            <div class="title" style="font-size: 2em;">A Propos</div>
-            <div class="content" style="font-size: 1em;">
-              « Je m’appelle Mathieu, j’ai 21 ans et j’ai choisi de travailler dans l’audiovisuel il y a 3 ans. J’ai
-              débuté mon parcours en tant
-              que monteur vidéo dans une petite entreprise pendant mon DUT en alternance et j’ai découvert que c’était
-              pour moi une
-              véritable passion. J’ai étendu mes compétences à la prise de vue, j’ai progressé dans la réalisation
-              d’effets spéciaux, j’ai eu
-              la chance d’encadrer une équipe de tournage… sur des projets audiovisuels très différents les uns des
-              autres : courts métrages, films d’entreprise, directs en mutlicam, publicités pour de grandes marques, et
-              des fictions pour la télévision et
-              le cinéma, en France et à l’étranger. Ces expériences ont fait de moi ce que je suis aujourd’hui, un
-              cadreur, télépilote,
-              monteur… je suis polyvalent et au fil des projets qui me sont confiés, je me concentre de plus en plus sur
-              la prise de vues et
-              l’éclairage avec l’ambition d’être un jour directeur de la photographie. J’aime la publicité, les clips et
-              la fiction qui selon moi
-              permettent le plus de libertés à la production exécutive. Maintenant, Je souhaite travailler avec des
-              professionnels qui partagent
-              les même valeurs que moi pour produire, ensemble, nos plus belles réalisations. »
+    <section>
+      <!-- Start Portfolio-->
+      <div class="portfolio_3_columns">
+        <div class="container">
+          <div class="portfolio_in">
+            <div class="title wow fadeInUp" data-wow-delay=".2s">Réalisations</div>
+            <div class="portfolio_box wow fadeInUp" data-wow-delay=".2s">
+              <ul class="filter">
+                <li class="filter_btn active" data-filter="*"><span>Tout</span></li>
+                <li class="filter_btn" data-filter=".clip"><span>Clip</span></li>
+                <li class="filter_btn" data-filter=".drone"><span>Drone</span></li>
+                <li class="filter_btn" data-filter=".fiction"><span>Fiction</span></li>
+                <li class="filter_btn" data-filter=".pub"><span>Publicite</span></li>
+              </ul>
+              <div class="row" id="isotope">
+                <!-- JS -->
+              </div>
             </div>
           </div>
-          <div class="about_right wow fadeInRight" data-wow-delay=".2s">
-            <div class="about_img" data-image="../com/img/a_propos/Tournage_Anna_wwm.png"></div>
-          </div>
         </div>
-        <div style="display: flex; align-items: center; justify-content: center;">
-          <input class="btn accen" id="btn-CGV" type="submit" value="Voir CGV">
-        </div>
-      </div>
-    </div><!-- End About-->
+      </div><!-- End Portfolio-->
+    </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../com/libs/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../com/js/magnificPopup/jquery.magnific-popup.js"></script>
+    <!-- <script src="../com/libs/jquery/dist/jquery.min.js"></script> -->
+    <script src="../com/js/realisation-1.1.js"></script>
     <script src="../com/js/scripts.min.js"></script>
     <script src="../com/libs/owl_carousel_2/owl.carousel.min.js"></script>
     <script src="../com/pug/components/slider/index.js"></script>
-    <script src="../com/js/a_propos.js"></script>
-
 </body>
-
 </html>
